@@ -12,6 +12,7 @@ import android.widget.EditText;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 
@@ -20,7 +21,6 @@ public class AddUserActivity extends AppCompatActivity {
     EditText mLocationField;
     EditText mAgeField;
     DatabaseReference databaseTest;
-
     private ArrayList<DataClass> mData;
 
     @Override
@@ -34,7 +34,7 @@ public class AddUserActivity extends AppCompatActivity {
         mAgeField = (EditText) findViewById(R.id.Age);
         mLocationField = (EditText) findViewById(R.id.Location);
 
-        databaseTest = FirebaseDatabase.getInstance().getReference("Users");
+        databaseTest = FirebaseDatabase.getInstance().getReference();
         mData = (ArrayList<DataClass>) i.getSerializableExtra("List");
     }
 
@@ -46,7 +46,15 @@ public class AddUserActivity extends AppCompatActivity {
         String id = databaseTest.push().getKey();
 
         DataClass newUser = new DataClass(id, name,age,location);
-        databaseTest.child(id).setValue(newUser);
+        databaseTest.child("users").setValue(newUser);
         mData.add(newUser);
+
+
+
+
+
+//        Intent mIntent = new Intent(this, MainActivity.class);
+//        mIntent.putExtra("List", (Serializable) mData);
+//        startActivity(mIntent);
     }
 }

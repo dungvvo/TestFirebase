@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
             mData.add(new DataClass());
         }
 
+
+
         recyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
 
         // use this setting to improve performance if you know that changes
