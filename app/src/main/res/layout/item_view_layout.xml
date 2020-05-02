@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/index_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/item_view_layout_generic_padding_top_bottom"
+        android:paddingBottom="@dimen/item_view_layout_generic_padding_top_bottom"
+        android:paddingStart="@dimen/item_view_layout_padding_left_lv1"
+        android:paddingEnd="@dimen/item_view_layout_generic_padding_left_right"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/field1_title"
+        android:textStyle="bold"
+        android:paddingTop="@dimen/item_view_layout_generic_padding_top_bottom"
+        android:paddingBottom="@dimen/item_view_layout_generic_padding_top_bottom"
+        android:paddingStart="@dimen/item_view_layout_padding_left_lv2"
+        android:paddingEnd="@dimen/item_view_layout_generic_padding_left_right"
+        />
+    <TextView
+        android:id="@+id/field1_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/item_view_layout_generic_padding_top_bottom"
+        android:paddingBottom="@dimen/item_view_layout_generic_padding_top_bottom"
+        android:paddingStart="@dimen/item_view_layout_padding_left_lv3"
+        android:paddingEnd="@dimen/item_view_layout_generic_padding_left_right"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/field2_title"
+        android:textStyle="bold"
+        android:paddingTop="@dimen/item_view_layout_generic_padding_top_bottom"
+        android:paddingBottom="@dimen/item_view_layout_generic_padding_top_bottom"
+        android:paddingStart="@dimen/item_view_layout_padding_left_lv2"
+        android:paddingEnd="@dimen/item_view_layout_generic_padding_left_right"
+        />
+    <TextView
+        android:id="@+id/field2_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/item_view_layout_generic_padding_top_bottom"
+        android:paddingBottom="@dimen/item_view_layout_generic_padding_top_bottom"
+        android:paddingStart="@dimen/item_view_layout_padding_left_lv3"
+        android:paddingEnd="@dimen/item_view_layout_generic_padding_left_right"
+        />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Test</string>
+
+    <string name="field1_title">Field 1</string>
+    <string name="field2_title">Field 2</string>
+    <string name="activity_main_button_randomize_text">Randomize</string>
+    <string name="activity_main_button_add_item_text">Add</string>
+    <string name="activity_main_button_remove_random_text">Remove</string>
+
+</resources>

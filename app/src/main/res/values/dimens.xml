@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_view_layout_generic_padding_left_right">4dp</dimen>
+    <dimen name="item_view_layout_generic_padding_top_bottom">2dp</dimen>
+    <dimen name="item_view_layout_padding_left_lv1">4dp</dimen>
+    <dimen name="item_view_layout_padding_left_lv2">12dp</dimen>
+    <dimen name="item_view_layout_padding_left_lv3">20dp</dimen>
+</resources>
